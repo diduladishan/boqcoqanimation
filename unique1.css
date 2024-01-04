@@ -1,0 +1,81 @@
+:root {
+  --card-height: 800px;
+  --card-width: calc(var(--card-height) / 1.5);
+}
+
+.bodyelement {
+  width: 100vw;
+
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card1 {
+  width: var(--card-width);
+  width: var(--card-height);
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0 36px;
+  perspective: 2500px;
+  margin: 0 50px;
+  cursor: pointer;
+}
+.wrapper {
+  transition: all 00.5s;
+
+  width: 100%;
+  z-index: -1;
+}
+.wrapper::before,
+.wrapper::after {
+  content: "";
+  opacity: 0;
+  width: 100%;
+  height: 80px;
+  transition: all 0.5s;
+  position: absolute;
+  left: 0;
+}
+.wrapper::before {
+  top: 0;
+  height: 100%;
+}
+.wrapper::after {
+  bottom: 0;
+  opacity: 1;
+}
+.cover-image {
+  width: 100%;
+  transition: transform 0.5s;
+}
+.char {
+  width: 100%;
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+  transition: all 0.5s;
+}
+.card1:hover .wrapper {
+  transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
+  box-shadow: 0px 5px 2px -8px rgb(0, 0, 0, 0.75);
+}
+.card1:hover .cover-image {
+  transform: translate3d(0%, -10%, 100px);
+}
+.card1:hover .wrapper::after,
+.wrapper::before {
+  opacity: 1;
+}
+.card1:hover .wrapper::after {
+  height: 120px;
+}
+.card1:hover .wrapper::before {
+  opacity: 1;
+}
+.card1:hover .char {
+  opacity: 1;
+  transform: translate3d(0%, -30%, -100px);
+}

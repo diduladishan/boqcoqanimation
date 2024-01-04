@@ -2,7 +2,7 @@ const cards = document.querySelector(".cards");
 const images = document.querySelectorAll(".card__img");
 const backgrounds = document.querySelectorAll(".card__bg");
 // const range = 40;
-const range = 13;
+const range = 15;
 
 // const calcValue = (a, b) => (((a * 100) / b) * (range / 100) -(range / 2)).toFixed(1);
 const calcValue = (a, b) => ((a / b) * range - range / 2).toFixed(1); // thanks @alice-mx

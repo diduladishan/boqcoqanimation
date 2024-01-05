@@ -5,12 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="parallax.css" />
+    <!-- <link rel="stylesheet" href="parallax.css" />
 
     <link rel="stylesheet" href="checkout.css" />
     <link rel="stylesheet" href="uniquetraits.css" />
-    <link rel="stylesheet" href="unique1.css" />
+    <link rel="stylesheet" href="unique1.css" /> -->
 
+    <link rel="stylesheet" href="checkout.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
     <script
       src="https://code.jquery.com/jquery-3.7.1.min.js"
@@ -49,7 +56,7 @@
     ></section> -->
 
     <section
-      class="bg-gradient-to-r from-[#B9F9C6] via-[#F8E7A9] to-[#f5c1be] relative"
+      class="bg-gradient-to-r from-[#B9F9C6] via-[#F8E7A9] to-[#f5c1be] relative h-screen"
     >
       <div class="container mx-auto">
         <div class="py-0 md:py-0 grid md:grid-cols-1 content-center px-2">
@@ -62,15 +69,15 @@
             <img
               src="./images/homepage/boqcoqlogo.png"
               alt="Description of the image"
-              class="w-[128px]"
+              class="w-[128px] xl:w-[96px] 2xl:w-[128px]"
             />
 
             <ul
-              class="flex items-center gap-[200px] text-[40px] text-[#FE7A2B] bg-[#fff] bg-opacity-50 rounded-full px-24 py-2 z-10"
+              class="flex items-center gap-32 xl:text-[30px] 2xl:text-[40px] text-[#FE7A2B] bg-[#fff] bg-opacity-50 rounded-full px-24 py-2 z-10"
             >
               <li>
                 <a href="#home" className="">
-                  <p className="font-bold">Home</p>
+                  <p className="">Home</p>
                 </a>
               </li>
               <li>
@@ -88,9 +95,18 @@
 
         <div class="py-0 md:py-0 grid md:grid-cols-2 content-center px-2">
           <div>
-            <h1 class="text-[96px] text-[#EB5A5D]">BOQ BOQ COQ</h1>
+            <!-- <p class="font-normal text-[60px]">Hello how are you? 400</p>
+            <p class="font-medium text-[60px]">Hello how are you? 500</p>
+            <p class="font-bold text-[60px]">Hello how are you? 700</p>
+            <p class="font-extrabold text-[60px]">Hello how are you? 800</p> -->
 
-            <h3 class="text-[24px] text-[#000000] mb-6">
+            <h1
+              class="text-[96px] xl:text-[80px] 2xl:text-[96px] text-[#EB5A5D] pt-8 pb-6 font-extrabold"
+            >
+              BOQ BOQ COQ
+            </h1>
+
+            <h3 class="text-[24px] text-[#000000] mb-6 font-medium pb-4">
               10,000 Uniquely generated hand drawn & assembled Coq's unleashing
               to the chad chain January 2024. This #AVAX signature collection
               celebrates the union of cryptocurrency, gaming, NFT's and the
@@ -121,48 +137,6 @@
           </div>
         </div>
       </div>
-
-      <!-- <div class="container">
-        <div class="grid grid-cols-2 gap-2 justify-items-center">
-          <div>
-            <h1
-              className="text-[20px] xl:text-[96px] lg:text-[60px] md:text-[40px] text-[#EB5A5D] text-left mb-4 font-black"
-            >
-              BOQ BOQ COQ
-            </h1>
-
-            <h3 class="text-[24px] text-[#000000] mb-6">
-              10,000 Uniquely generated hand drawn & assembled Coq's unleashing
-              to the chad chain January 2024. This #AVAX signature collection
-              celebrates the union of cryptocurrency, gaming, NFT's and the
-              power of a great meme all in one ridiculous Coq . So make sure to
-              hodl on to your Coq folks, these BBC's have pumpamentals©,
-              fundamentals and #AVAX historicamentals.
-            </h3>
-
-            <div
-              class="bg-[#FDDF7C] rounded-full shadow-lg shadow-[#a1a1a1] flex items-center w-[329px]"
-            >
-              <img
-                src="./images/homepage/vx-01 1.png"
-                alt="logo"
-                class="w-[71px]"
-              />
-              <h1 class="text-[#FF572D] text-[24px] text-left font-bold">
-                signature series collection
-              </h1>
-            </div>
-          </div>
-
-          <div>
-            <img
-              src="./images/homepage/mainPage.png"
-              alt="logo"
-              class="w-full"
-            />
-          </div>
-        </div>
-      </div> -->
     </section>
     <!-- 
       <img
@@ -171,87 +145,119 @@
         class="w-[583px] absolute bottom-0 left-0"
       /> -->
 
-    <!-- <section class="bg-[#F4B5C4]">
-      <h2 class="text-[#E26986] text-[64px] text-center pt-16">concept</h2>
+    <section class="bg-[#F4B5C4] h-screen">
+      <h2
+        class="text-[#E26986] text-[64px] text-center 2xl:pt-10 xl:pt-0 font-bold"
+      >
+        concept
+      </h2>
+
+      <!-- <div class="container mx-auto">
+        <h1 class="bg-[#666666]">hello</h1>
+      </div> -->
+
       <div class="container mx-auto">
-        <ol class="relative border-s-4 border-[#5D4C41] pb-32">
-          <li class="mb-8 ms-4">
-            <div
-              class="absolute w-7 h-7 bg-[#5D4C41] rounded-full mt-16 -start-4 border border-[#5D4C41]"
-            ></div>
-            <time
-              class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
-            >
-              <h1 class="text-[48px] text-[#5D4C41]">
-                How our coq's are unique:
-              </h1>
-            </time>
-            <p class="text-[20px] text-[#5D4C41] mt-5 ml-8">
-              Unique skins in various colours and raritie including the elite
-              golden birds, famous chicken color themes, and some of the rarest
-              most ridiculous traits left to be discovered.
-            </p>
-          </li>
-          <li class="mb-8 ms-4">
-            <div
-              class="absolute w-7 h-7 bg-[#5D4C41] rounded-full -start-4 border border-[#5D4C41]"
-            ></div>
+        <div
+          class="py-0 md:py-0 grid md:grid-cols-2 content-center px-2 gap-24"
+        >
+          <div
+            class="flex items-center justify-center gap-16 2xl:pt-16 xl:pt-8"
+          >
+            <div>
+              <ol class="relative border-s-4 border-[#5D4C41] pb-12">
+                <li class="mb-8 ms-4">
+                  <div
+                    class="absolute w-7 h-7 bg-[#5D4C41] rounded-full mt-16 -start-4 border border-[#5D4C41]"
+                  ></div>
+                  <time
+                    class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
+                  >
+                    <h1 class="2xl:text-[48px] xl:text-[35px] text-[#5D4C41]">
+                      How our coq's are unique:
+                    </h1>
+                  </time>
+                  <p
+                    class="2xl:text-[20px] xl:text-[18px] text-[#5D4C41] mt-5 ml-8"
+                  >
+                    Unique skins in various colours and raritie including the
+                    elite golden birds, famous chicken color themes, and some of
+                    the rarest most ridiculous traits left to be discovered.
+                  </p>
+                </li>
+                <li class="mb-8 ms-4">
+                  <div
+                    class="absolute w-7 h-7 bg-[#5D4C41] rounded-full -start-4 border border-[#5D4C41]"
+                  ></div>
 
-            <p class="text-[20px] text-[#5D4C41] ml-8">
-              Unique backgrounds in various rarities including colors, different
-              environments the coq's find themselves in their efforts in trying
-              to escape the coop. The farther away they are from the coop, the
-              rarer the background.
-            </p>
-          </li>
-          <li class="mb-8 ms-4">
-            <div
-              class="absolute w-7 h-7 bg-[#5D4C41] rounded-full -start-4 border border-[#5D4C41]"
-            ></div>
+                  <p class="2xl:text-[20px] xl:text-[18px] text-[#5D4C41] ml-8">
+                    Unique backgrounds in various rarities including colors,
+                    different environments the coq's find themselves in their
+                    efforts in trying to escape the coop. The farther away they
+                    are from the coop, the rarer the background.
+                  </p>
+                </li>
+                <li class="mb-8 ms-4">
+                  <div
+                    class="absolute w-7 h-7 bg-[#5D4C41] rounded-full -start-4 border border-[#5D4C41]"
+                  ></div>
 
-            <p class="text-[20px] text-[#5D4C41] ml-8">
-              Unique Items in various rarities related to crypto, gaming,
-              classic NFT sets, meme's and more to discover.
-            </p>
-          </li>
+                  <p class="2xl:text-[20px] xl:text-[18px] text-[#5D4C41] ml-8">
+                    Unique Items in various rarities related to crypto, gaming,
+                    classic NFT sets, meme's and more to discover.
+                  </p>
+                </li>
 
-          <li class="mb-8 ms-4">
-            <div
-              class="absolute w-7 h-7 bg-[#5D4C41] rounded-full -start-4 border border-[#5D4C41]"
-            ></div>
+                <li class="mb-8 ms-4">
+                  <div
+                    class="absolute w-7 h-7 bg-[#5D4C41] rounded-full -start-4 border border-[#5D4C41]"
+                  ></div>
 
-            <p class="text-[20px] text-[#5D4C41] ml-8">
-              Unique Meme's and famous quotes from both the crypto and gaming
-              communitiesforever inscribed on the chad of gaming blockchains
-              #AVAX
-            </p>
-          </li>
+                  <p class="2xl:text-[20px] xl:text-[18px] text-[#5D4C41] ml-8">
+                    Unique Meme's and famous quotes from both the crypto and
+                    gaming communitiesforever inscribed on the chad of gaming
+                    blockchains #AVAX
+                  </p>
+                </li>
 
-          <li class="ms-4">
-            <div
-              class="absolute w-7 h-7 bg-[#5D4C41] rounded-full -start-4 border border-[#5D4C41]"
-            ></div>
+                <li class="ms-4">
+                  <div
+                    class="absolute w-7 h-7 bg-[#5D4C41] rounded-full -start-4 border border-[#5D4C41]"
+                  ></div>
 
-            <p class="text-[20px] text-[#5D4C41] ml-8">
-              Unique actions in various rarities the Coq's find themselves
-              doing.
-            </p>
-          </li>
-        </ol>
+                  <p class="2xl:text-[20px] xl:text-[18px] text-[#5D4C41] ml-8">
+                    Unique actions in various rarities the Coq's find themselves
+                    doing.
+                  </p>
+                </li>
+              </ol>
+            </div>
+          </div>
+
+          <div class="flex items-center">
+            <img
+              src="./images/concept/concept.png"
+              alt="Description of the image"
+              class="w-full"
+            />
+          </div>
+        </div>
       </div>
-    </section> -->
+    </section>
 
-    <!-- <section class="bg-[#FDDF7C] relative">
+    <section class="bg-[#FDDF7C] relative h-screen">
       <img
         src="./images/checkout/branch-01 4.png"
         alt="Description of the image"
-        class="w-[610px] absolute top-[-120px] left-0"
+        class="2xl:w-[610px] xl:w-[410px] absolute top-[-120px] left-0"
       />
-      <h1 class="text-[#EB5A5D] text-[64px] text-center pt-32 pb-16">
+
+      <h1
+        class="text-[64px] text-[#EB5A5D] text-center 2xl:pt-10 xl:pt-0 font-bold"
+      >
         Check out our Coq's
       </h1>
 
-      <div class="ag-container-shops">
+      <div class="ag-container-shops pt-[150px]">
         <div class="js-flickity-slider">
           <div class="js-carousel-cell">
             <div class="ag-shop-card_box-wrap">
@@ -784,7 +790,7 @@
         An assortment of Coq's of various rarities showcasing the wide range of
         characteristics this set contains.
       </h3>
-    </section> -->
+    </section>
 
     <!-- <section class="bg-gradient-to-r from-[#B9F9C6] via-[#F8E7A9] to-[#F3A4CD]">
       <h1 class="text-[#E26986] text-[64px] text-center pt-16 pb-16">
@@ -938,5 +944,7 @@
 
     <script src="./uniquetraits.js"></script>
     <script src=".//unique1.js"></script> -->
+
+    <script src="./checkout.js"></script>
   </body>
 </html>

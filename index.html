@@ -70,20 +70,20 @@
           <img
             src="./images/homepage/branch-img.png"
             alt="Description of the image"
-            class="2xl:w-[672px] xl:w-[472px] absolute top-0 right-0"
+            class="2xl:w-[672px] xl:w-[472px] lg:w-[372px] md:w-[472px] absolute top-0 right-0"
           />
 
-          <img
+          <!-- <img
             src="./images/homepage/branch-right-img.png"
             alt="Description of the image"
-            class="2xl:w-[480px] xl:w-[472px] absolute bottom-[-350px] left-0"
-          />
+            class="2xl:w-[350px] xl:w-[350px] lg:w-[250px] absolute 2xl:bottom-[-420px] 2xl:left-0 xl:bottom-[-300px] xl:left-0 lg:bottom-[-200px] lg:left-0"
+          /> -->
 
           <div class="flex items-center justify-center gap-16 pt-16">
             <img
               src="./images/homepage/boqcoqlogo.png"
               alt="Description of the image"
-              class="w-[128px] xl:w-[96px] 2xl:w-[128px]"
+              class="md:w-[70px] lg:w-[80px] xl:w-[96px] 2xl:w-[128px]"
             />
 
             <ul
@@ -107,7 +107,7 @@
           </div>
         </div>
 
-        <div class="py-0 md:py-0 grid md:grid-cols-2 content-center px-16">
+        <div class="py-0 md:py-0 lg:grid grid-cols-2 content-center px-16">
           <div class="">
             <!-- <p class="font-normal text-[60px]">Hello how are you? 400</p>
             <p class="font-medium text-[60px]">Hello how are you? 500</p>
@@ -120,7 +120,7 @@
               BOQ BOQ COQ
             </h1> -->
             <h1
-              class="lg:text-[56px] xl:text-[70px] 2xl:text-[86px] text-[#EB5A5D] pt-4 pb-1 font-extrabold"
+              class="md:text-[56px] lg:text-[56px] xl:text-[70px] 2xl:text-[86px] text-[#EB5A5D] pt-4 pb-8 lg:pb-1 font-extrabold text-center lg:text-left"
             >
               <!-- Hell<span class="blink">o</span> -->
               B<span class="blinkk">O</span>Q B<span class="blinkk">O</span>Q
@@ -128,7 +128,7 @@
             </h1>
 
             <h3
-              class="2xl:text-[24px] xl:text-[20px] lg:text-[20px] text-[#000000] 2xl:mb-12 mb-12 font-medium pb-4"
+              class="2xl:text-[24px] xl:text-[20px] lg:text-[20px] md:text-[20px] text-[#000000] 2xl:mb-12 mb-12 font-medium text-center lg:text-left"
             >
               10,000 Uniquely generated hand drawn & assembled Coq's unleashing
               to the chad chain January 2024. This #AVAX signature collection
@@ -154,63 +154,67 @@
             </div> -->
             <!-- -------------------------------------------------bubble starts here ------------------------------------------------------------------------ -->
 
-            <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-              <defs>
-                <filter id="gooey">
-                  <!-- in="sourceGraphic" -->
-                  <feGaussianBlur
-                    in="SourceGraphic"
-                    stdDeviation="5"
-                    result="blur"
-                  />
-                  <feColorMatrix
-                    in="blur"
-                    type="matrix"
-                    values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
-                    result="highContrastGraphic"
-                  />
-                  <feComposite
-                    in="SourceGraphic"
-                    in2="highContrastGraphic"
-                    operator="atop"
-                  />
-                </filter>
-              </defs>
-            </svg>
+            <div class="flex items-center justify-center lg:justify-start">
+              <div>
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                  <defs>
+                    <filter id="gooey">
+                      <!-- in="sourceGraphic" -->
+                      <feGaussianBlur
+                        in="SourceGraphic"
+                        stdDeviation="5"
+                        result="blur"
+                      />
+                      <feColorMatrix
+                        in="blur"
+                        type="matrix"
+                        values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
+                        result="highContrastGraphic"
+                      />
+                      <feComposite
+                        in="SourceGraphic"
+                        in2="highContrastGraphic"
+                        operator="atop"
+                      />
+                    </filter>
+                  </defs>
+                </svg>
 
-            <button id="gooey-button">
-              <div class="flex items-center">
-                <img
-                  src="./images/homepage/vx-01 1.png"
-                  alt="logo"
-                  class="w-[71px] lg:w-[60px]"
-                />
-                <h1
-                  class="text-[#FF572D] 2xl:text-[24px] xl:text-[24px] lg:text-[18px] text-left font-bold ml-1"
-                >
-                  signature series collection
-                </h1>
+                <button id="gooey-button">
+                  <div class="flex items-center">
+                    <img
+                      src="./images/homepage/vx-01 1.png"
+                      alt="logo"
+                      class="w-[71px] lg:w-[60px]"
+                    />
+                    <h1
+                      class="text-[#FF572D] 2xl:text-[24px] xl:text-[24px] lg:text-[18px] text-left font-bold ml-1"
+                    >
+                      signature series collection
+                    </h1>
+                  </div>
+
+                  <span class="bubbles">
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                  </span>
+                </button>
               </div>
-
-              <span class="bubbles">
-                <span class="bubble"></span>
-                <span class="bubble"></span>
-                <span class="bubble"></span>
-                <span class="bubble"></span>
-                <span class="bubble"></span>
-                <span class="bubble"></span>
-                <span class="bubble"></span>
-                <span class="bubble"></span>
-                <span class="bubble"></span>
-                <span class="bubble"></span>
-
-                <span class="bubble"></span>
-                <span class="bubble"></span>
-                <span class="bubble"></span>
-                <span class="bubble"></span>
-                <span class="bubble"></span>
-              </span>
-            </button>
+            </div>
 
             <!-- -------------------------------------------------bubble starts here ------------------------------------------------------------------------ -->
           </div>
@@ -223,26 +227,26 @@
 
           <!-- ---------------------------------------------------------------------- -->
           <!-- style="width: 386px; height: 516px" -->
-          <div class="imag">
+          <div class="imag hidden lg:block">
             <div class="image-container">
               <div class="card-containerxx3">
                 <img
                   src="./images/homepage/card2.png"
-                  class="cardx1 2xl:w-[290px] xl:w-[250px] lg:w-[200px] 2xl:mt-[20px] 2xl:ml-[250px] xl:mt-[25px] xl:ml-[140px] lg:mt-[70px] lg:ml-[80px]"
+                  class="cardx1 2xl:w-[290px] xl:w-[250px] lg:w-[200px] md:w-[200px] 2xl:mt-[20px] 2xl:ml-[250px] xl:mt-[25px] xl:ml-[140px] lg:mt-[70px] lg:ml-[80px]"
                 />
               </div>
 
               <div class="card-containerxx2">
                 <img
                   src="./images/homepage/card3.png"
-                  class="cardx2 2xl:w-[290px] xl:w-[250px] lg:w-[200px] 2xl:mt-[20px] 2xl:ml-[250px] xl:mt-[25px] xl:ml-[140px] lg:mt-[70px] lg:ml-[80px]"
+                  class="cardx2 2xl:w-[290px] xl:w-[250px] lg:w-[200px] md:w-[200px] 2xl:mt-[20px] 2xl:ml-[250px] xl:mt-[25px] xl:ml-[140px] lg:mt-[70px] lg:ml-[80px]"
                 />
               </div>
 
               <div class="card-containerxx1">
                 <img
                   src="./images/homepage/card1.png"
-                  class="cardx3 2xl:w-[290px] xl:w-[250px] lg:w-[200px] 2xl:mt-[20px] 2xl:ml-[250px] xl:mt-[25px] xl:ml-[140px] lg:mt-[70px] lg:ml-[80px]"
+                  class="cardx3 2xl:w-[290px] xl:w-[250px] lg:w-[200px] md:w-[200px] 2xl:mt-[20px] 2xl:ml-[250px] xl:mt-[25px] xl:ml-[140px] lg:mt-[70px] lg:ml-[80px]"
                 />
               </div>
             </div>
@@ -259,9 +263,9 @@
         class="w-[583px] absolute bottom-0 left-0"
       /> -->
 
-    <section class="bg-[#F4B5C4] h-screen">
+    <section class="bg-[#F4B5C4] h-max pb-32">
       <h2
-        class="text-[#E26986] text-[64px] xl:text-[50px] text-center 2xl:pt-10 xl:pt-5 font-bold"
+        class="text-[#E26986] text-[64px] xl:text-[50px] text-center 2xl:pt-16 xl:pt-5 font-bold"
       >
         Concept
       </h2>
@@ -274,9 +278,7 @@
         <div
           class="py-0 md:py-0 grid md:grid-cols-2 content-center px-2 gap-24 mx-8"
         >
-          <div
-            class="flex items-center justify-center gap-16 2xl:pt-24 xl:pt-8"
-          >
+          <div class="flex items-center justify-center gap-16 2xl:pt-8 xl:pt-8">
             <div>
               <ol class="relative border-s-4 border-[#5D4C41] pb-12">
                 <li class="mb-8 ms-4">
@@ -362,7 +364,7 @@
       <img
         src="./images/checkout/branch-01 4.png"
         alt="Description of the image"
-        class="2xl:w-[610px] xl:w-[410px] absolute top-[-120px] left-0"
+        class="2xl:w-[510px] xl:w-[410px] absolute top-[-120px] left-0"
       />
 
       <img
@@ -1031,7 +1033,7 @@
       </div>
     </section>
 
-    <section class="relative bg-[#F4B5C4] h-screen">
+    <section class="relative bg-[#F4B5C4] pb-[450px]">
       <p
         class="2xl:text-[64px] xl:text-[50px] text-[#002C48] text-center 2xl:pt-10 xl:pt-5 font-bold"
       >
@@ -1050,14 +1052,14 @@
             <img
               src="./images/aboutus/33 1.png"
               alt="Description of the image"
-              class="w-[500px] object-scale-down"
+              class="w-[500px] object-scale-down py-32"
             />
           </div>
           <div>
             <img
               src="./images/aboutus/Group 87.png"
               alt="Description of the image"
-              class="w-[500px] object-scale-down"
+              class="w-[500px] object-scale-down py-32"
             />
           </div>
         </div>
@@ -1118,11 +1120,13 @@
 
     <section class="bg-[#E26986]">
       <h1
-        class="2xl:text-[64px] xl:text-[50px] text-[#B83077] text-center 2xl:pt-10 xl:pt-5 font-bold pb-8"
+        class="2xl:text-[64px] xl:text-[50px] lg:text-[40px] md:text-[40px] text-[#B83077] text-center 2xl:pt-16 xl:pt-10 lg:pt-8 md:pt-8 font-extrabold pb-12"
       >
         HODL your Coq's
       </h1>
-      <p class="text-[24px] text-[#fff] text-center mb-6 px-32 pb-6">
+      <p
+        class="2xl:text-[24px] xl:text-[22px] lg:text-[18px] md:text-[18px] text-[#fff] text-center mb-6 2xl:px-[400px] xl:px-[300px] lg:px-[250px] md:px-[200px] pb-6"
+      >
         Welcome to [Your Website Name]! We're here to [briefly Sign
         up/Discover/Explore now!]" Welcome to [Your Website Name]! We're here to
         [briefly Sign up/Discover/Explore now!]"Welcome to [Your Website Name]!
@@ -1134,40 +1138,40 @@
         <img
           src="./images/homepage/boqcoqlogo.png"
           alt="logo"
-          class="w-[70px] object-scale-down"
+          class="2xl:w-[70px] xl:w-[60px] lg:w-[50px] md:w-[40px] w-[30px] object-scale-down"
         />
         <img
           src="./images/homepage/boqcoqlogo.png"
           alt="logo"
-          class="w-[70px] object-scale-down"
+          class="2xl:w-[70px] xl:w-[60px] lg:w-[50px] md:w-[40px] w-[30px] object-scale-down"
         />
         <img
           src="./images/homepage/boqcoqlogo.png"
           alt="logo"
-          class="w-[70px] object-scale-down"
+          class="2xl:w-[70px] xl:w-[60px] lg:w-[50px] md:w-[40px] w-[30px] object-scale-down"
         />
         <img
           src="./images/homepage/boqcoqlogo.png"
           alt="logo"
-          class="w-[70px] object-scale-down"
+          class="2xl:w-[70px] xl:w-[60px] lg:w-[50px] md:w-[40px] w-[30px] object-scale-down"
         />
         <img
           src="./images/homepage/boqcoqlogo.png"
           alt="logo"
-          class="w-[70px] object-scale-down"
+          class="2xl:w-[70px] xl:w-[60px] lg:w-[50px] md:w-[40px] w-[30px] object-scale-down"
         />
         <img
           src="./images/homepage/boqcoqlogo.png"
           alt="logo"
-          class="w-[70px] object-scale-down"
+          class="2xl:w-[70px] xl:w-[60px] lg:w-[50px] md:w-[40px] w-[30px] object-scale-down"
         />
       </div>
 
       <div class="flex items-center justify-center pb-16">
         <p
-          class="bg-[#fff] text-[25px] text-[#EB5A5D] text-center w-[700px] py-1 rounded-full drop-shadow-lg font-bold"
+          class="bg-[#fff] 2xl:text-[45px] xl:text-[40px] lg:text-[30px] md:text-[20px] text-[#EB5A5D] text-center 2xl:w-[1000px] xl:w-[900px] lg:w-[800px] md:w-[700px] py-1 rounded-full drop-shadow-lg font-bold"
         >
-          SUBSCRIBE
+          Subscribe
         </p>
       </div>
     </section>

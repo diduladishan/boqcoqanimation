@@ -118,6 +118,42 @@ body {
 }
 /* ------------------------------------------ 1024 >>>  1280 (ends)  ------------------------------------ */
 
+/* ------------------------------------------ 768 >>>  1024 (starts)  ------------------------------------ */
+/* @media screen and (max-width: 1024px) and (min-width: 768px) {
+  .cardx3 {
+    transform: rotate(0deg) translatex(200px) translatey(0px);
+    transition: transform 0.3s ease-in-out;
+    z-index: 3;
+  }
+
+  .card-containerxx1:hover .cardx3 {
+    transform: rotate(0deg) translatex(200px) translatey(-15px);
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .cardx2 {
+    transform: rotate(-10deg) translatex(110px) translatey(40px);
+    z-index: 2;
+  }
+
+  .card-containerxx2:hover .cardx2 {
+    transform: rotate(-20deg) translatex(80px) translatey(35px);
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .cardx1 {
+    transform: rotate(-25deg) translatex(10px) translatey(60px);
+    z-index: 1;
+  }
+
+  .card-containerxx3:hover .cardx1 {
+    transform: rotate(-35deg) translatex(-30px) translatey(60px);
+  }
+} */
+/* ------------------------------------------ 768 >>>  1024 (ends)  ------------------------------------ */
+
 /* ------------------------------------------ Screen sizes ------------------------------------ */
 
 /* --------------------------Home page simple card animation (ends)------------------------------------------------------------- */

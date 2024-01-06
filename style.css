@@ -121,3 +121,13 @@ body {
 /* ------------------------------------------ Screen sizes ------------------------------------ */
 
 /* --------------------------Home page simple card animation (ends)------------------------------------------------------------- */
+
+.test001 {
+  position: relative;
+  z-index: 2;
+}
+
+.test002 {
+  position: relative;
+  z-index: 1;
+}

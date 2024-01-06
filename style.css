@@ -1,3 +1,123 @@
 body {
   font-family: "Playpen Sans", cursive;
 }
+
+/* --------------------------Home page simple card animation (starts)------------------------------------------------------------- */
+
+.cardx1,
+.cardx2,
+.cardx3 {
+  position: absolute;
+  /* margin-left: 150px;
+  margin-top: 30px; */
+  transition: transform 0.3s ease;
+}
+
+.cardx3 {
+  transform: rotate(0deg) translatex(200px) translatey(0px);
+  transition: transform 0.3s ease-in-out;
+  z-index: 3;
+}
+
+.card-containerxx1:hover .cardx3 {
+  transform: rotate(0deg) translatex(200px) translatey(-15px);
+}
+
+.cardx2 {
+  transform: rotate(-10deg) translatex(50px) translatey(60px);
+  z-index: 2;
+}
+
+.card-containerxx2:hover .cardx2 {
+  transform: rotate(-20deg) translatex(10px) translatey(50px);
+}
+
+.cardx1 {
+  transform: rotate(-20deg) translatex(-100px) translatey(110px);
+  z-index: 1;
+}
+
+.card-containerxx3:hover .cardx1 {
+  transform: rotate(-30deg) translatex(-150px) translatey(50px);
+}
+
+.imag {
+}
+
+/* ------------------------------------------ Screen sizes ------------------------------------ */
+
+/* ------------------------------------------ 1280 >>>  1536 (starts)  ------------------------------------ */
+@media screen and (max-width: 1536px) and (min-width: 1280px) {
+  .cardx3 {
+    transform: rotate(0deg) translatex(200px) translatey(0px);
+    transition: transform 0.3s ease-in-out;
+    z-index: 3;
+  }
+
+  .card-containerxx1:hover .cardx3 {
+    transform: rotate(0deg) translatex(200px) translatey(-15px);
+  }
+}
+
+@media screen and (max-width: 1536px) and (min-width: 1280px) {
+  .cardx2 {
+    transform: rotate(-10deg) translatex(70px) translatey(60px);
+    z-index: 2;
+  }
+
+  .card-containerxx2:hover .cardx2 {
+    transform: rotate(-20deg) translatex(30px) translatey(30px);
+  }
+}
+
+@media screen and (max-width: 1536px) and (min-width: 1280px) {
+  .cardx1 {
+    transform: rotate(-20deg) translatex(-80px) translatey(110px);
+    z-index: 1;
+  }
+
+  .card-containerxx3:hover .cardx1 {
+    transform: rotate(-25deg) translatex(-100px) translatey(80px);
+  }
+}
+/* ------------------------------------------ 1280 >>>  1536 (ends)  ------------------------------------ */
+
+/* ------------------------------------------ 1024 >>>  1280 (starts)  ------------------------------------ */
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+  .cardx3 {
+    transform: rotate(0deg) translatex(200px) translatey(0px);
+    transition: transform 0.3s ease-in-out;
+    z-index: 3;
+  }
+
+  .card-containerxx1:hover .cardx3 {
+    transform: rotate(0deg) translatex(200px) translatey(-15px);
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+  .cardx2 {
+    transform: rotate(-10deg) translatex(110px) translatey(40px);
+    z-index: 2;
+  }
+
+  .card-containerxx2:hover .cardx2 {
+    transform: rotate(-20deg) translatex(80px) translatey(35px);
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+  .cardx1 {
+    transform: rotate(-25deg) translatex(10px) translatey(60px);
+    z-index: 1;
+  }
+
+  .card-containerxx3:hover .cardx1 {
+    transform: rotate(-35deg) translatex(-30px) translatey(60px);
+  }
+}
+/* ------------------------------------------ 1024 >>>  1280 (ends)  ------------------------------------ */
+
+/* ------------------------------------------ Screen sizes ------------------------------------ */
+
+/* --------------------------Home page simple card animation (ends)------------------------------------------------------------- */

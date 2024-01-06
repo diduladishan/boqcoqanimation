@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="homepagebubble.css" />
     <!-- <link rel="stylesheet" href="parallax.css" />
 
     <link rel="stylesheet" href="checkout.css" />
@@ -111,7 +113,7 @@
             </h1>
 
             <h3
-              class="2xl:text-[24px] xl:text-[20px] lg:text-[20px] text-[#000000] mb-6 font-medium pb-4"
+              class="2xl:text-[24px] xl:text-[20px] lg:text-[20px] text-[#000000] 2xl:mb-12 mb-12 font-medium pb-4"
             >
               10,000 Uniquely generated hand drawn & assembled Coq's unleashing
               to the chad chain January 2024. This #AVAX signature collection
@@ -121,8 +123,8 @@
               fundamentals and #AVAX historicamentals.
             </h3>
 
-            <div
-              class="bg-[#FDDF7C] rounded-full shadow-lg shadow-[#a1a1a1] flex items-center w-max px-6 py-1 mb-12"
+            <!-- <div
+              class="bg-[#f8d667] rounded-full shadow-lg shadow-[#a1a1a1] flex items-center w-max px-6 py-1 mb-12"
             >
               <img
                 src="./images/homepage/vx-01 1.png"
@@ -134,7 +136,68 @@
               >
                 signature series collection
               </h1>
-            </div>
+            </div> -->
+            <!-- -------------------------------------------------bubble starts here ------------------------------------------------------------------------ -->
+
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+              <defs>
+                <filter id="gooey">
+                  <!-- in="sourceGraphic" -->
+                  <feGaussianBlur
+                    in="SourceGraphic"
+                    stdDeviation="5"
+                    result="blur"
+                  />
+                  <feColorMatrix
+                    in="blur"
+                    type="matrix"
+                    values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
+                    result="highContrastGraphic"
+                  />
+                  <feComposite
+                    in="SourceGraphic"
+                    in2="highContrastGraphic"
+                    operator="atop"
+                  />
+                </filter>
+              </defs>
+            </svg>
+
+            <button id="gooey-button">
+              <div class="flex items-center">
+                <img
+                  src="./images/homepage/vx-01 1.png"
+                  alt="logo"
+                  class="w-[71px] lg:w-[60px]"
+                />
+                <h1
+                  class="text-[#FF572D] 2xl:text-[24px] xl:text-[24px] lg:text-[18px] text-left font-bold ml-1"
+                >
+                  signature series collection
+                </h1>
+              </div>
+
+              <span class="bubbles">
+                <span class="bubble"></span>
+                <span class="bubble"></span>
+                <span class="bubble"></span>
+                <span class="bubble"></span>
+                <span class="bubble"></span>
+                <span class="bubble"></span>
+                <span class="bubble"></span>
+                <span class="bubble"></span>
+                <span class="bubble"></span>
+                <span class="bubble"></span>
+
+                <span class="bubble"></span>
+                <span class="bubble"></span>
+                <span class="bubble"></span>
+                <span class="bubble"></span>
+                <span class="bubble"></span>
+              </span>
+            </button>
+
+            <!-- -------------------------------------------------bubble starts here ------------------------------------------------------------------------ -->
           </div>
 
           <!-- <img

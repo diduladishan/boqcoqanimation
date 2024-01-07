@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css" />
-
+    <link rel="stylesheet" href="concept.css" />
     <link rel="stylesheet" href="homepagebubble.css" />
     <link rel="stylesheet" href="homepagetittleblink.css" />
     <!-- <link rel="stylesheet" href="parallax.css" />
@@ -122,7 +122,6 @@
             <h1
               class="text-[60px] md:text-[70px] lg:text-[56px] xl:text-[70px] 2xl:text-[86px] text-[#EB5A5D] pt-14 lg:pt-16 md:pt-16 xl:pt-4 pb-8 lg:pb-1 font-extrabold text-center lg:text-left"
             >
-              <!-- Hell<span class="blink">o</span> -->
               B<span class="blinkk">O</span>Q B<span class="blinkk">O</span>Q
               COQ
             </h1>
@@ -263,16 +262,15 @@
         class="w-[583px] absolute bottom-0 left-0"
       /> -->
 
-    <section class="bg-[#F4B5C4] h-max pb-32">
+    <!-- --------------------------------------------------------------------------------------Concept section starts here--------------------------------------------------------- -->
+    <!-- <section class="bg-[#F4B5C4] h-max pb-32">
       <h2
         class="text-[#E26986] text-[64px] xl:text-[50px] text-center 2xl:pt-16 xl:pt-5 font-bold"
       >
         Concept
       </h2>
 
-      <!-- <div class="container mx-auto">
-        <h1 class="bg-[#666666]">hello</h1>
-      </div> -->
+      
 
       <div class="container mx-auto">
         <div
@@ -358,7 +356,92 @@
           </div>
         </div>
       </div>
+    </section> -->
+    <section class="bg-[#F4B5C4] h-screen pb-32 helloback">
+      <h2
+        class="title_main text-[64px] 2xl:text-[64px] xl:text-[50px] text-center 2xl:pt-16 xl:pt-5 font-bold text-[#E26986]"
+      >
+        Boq Boq Coq's mission
+      </h2>
+
+      <div class="container mx-auto">
+        <div
+          class="py-0 md:py-0 grid md:grid-cols-2 content-center px-2 gap-24 mx-8"
+        >
+          <div class="flex items-center justify-center gap-16 2xl:pt-8 xl:pt-8">
+            <div>
+              <p class="secondary_1 text-[36px] font-bold mb-4 text-[#5D4C41]">
+                Rare golden bird
+              </p>
+              <p
+                class="secondary_2 font-medium text-[24px] mb-12 text-[#7B2D40]"
+              >
+                A rare find in the set includes the golden coq's with features
+                other unique traits and have some of the highest chance to gain
+                ultra rare traits unique to the collection.
+              </p>
+
+              <p
+                class="secondary_1 text-[36px] font-bold mb-4 text-right text-[#5D4C41]"
+              >
+                Unique items
+              </p>
+              <p
+                class="secondary_2 secondary_2 font-medium text-[24px] text-right text-[#7B2D40]"
+              >
+                Our coq's traits include a combination of memes, unique &
+                ridiculous items from the crypto and gaming worlds.
+              </p>
+            </div>
+          </div>
+
+          <div class="containerconcept">
+            <div class="background_concept"></div>
+            <!-- ------------------------------------- main image ---------------------------------------------------------- -->
+            <img
+              src="./images/concept/main.png"
+              alt="Main Image"
+              class="absolute w-[400px]"
+            />
+            <!-- ------------------------------------- main image ---------------------------------------------------------- -->
+            <div class="circle-container" id="circle-container">
+              <img
+                src="./images/concept/1.png"
+                alt="Small Image 1"
+                class="small-image"
+                onclick="rotateImages(30, '#f4b5c4', {titleMain: '#E26986', secondary: '#E26986' , secondaryl: '#7B2D40'})"
+              />
+              <img
+                src="./images/concept/2.png"
+                alt="Small Image 2"
+                class="small-image"
+                onclick="rotateImages(30, '#edeaea', {titleMain: '#7B7B7B', secondary: '#7B7B7B' , secondaryl: '#1F1F1F'})"
+              />
+              <img
+                src="./images/concept/3.png"
+                alt="Small Image 3"
+                class="small-image"
+                onclick="rotateImages(30, '#eaacea', {titleMain: '#AE42AE', secondary: '#AE42AE', secondaryl: '#1F1F1F'})"
+              />
+              <img
+                src="./images/concept/4.png"
+                alt="Small Image 4"
+                class="small-image"
+                onclick="rotateImages(30, '#fddf7c', {titleMain: '#DD9532', secondary: '#DD9532' , secondaryl: '#663D05'})"
+              />
+              <img
+                src="./images/concept/5.png"
+                alt="Small Image 5"
+                class="small-image"
+                onclick="rotateImages(30, '#c89f6e', {titleMain: 'white', secondary: 'blue' , secondaryl: 'red'})"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
+
+    <!-- --------------------------------------------------------------------------------------Concept section starts here--------------------------------------------------------- -->
 
     <section class="bg-[#FDDF7C] relative h-screen">
       <img
@@ -1184,5 +1267,6 @@
 
     <script src="./homepage.js"></script>
     <script src="./checkout.js"></script>
+    <script src="./concept.js"></script>
   </body>
 </html>

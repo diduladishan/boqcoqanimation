@@ -1,0 +1,61 @@
+.containerconcept {
+  position: relative;
+  /* display: inline-block; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px; /* Increase the width to increase the circle radius */
+  height: 600px; /* Increase the height to increase the circle radius */
+  position: relative;
+  transition: transform 0.5s ease; /* Smoother transition for rotation */
+}
+
+.background_concept {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: #ffffff; */
+}
+
+.small-image {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 50%;
+  cursor: pointer;
+  animation: cartoonish-vibe 0.5s ease-in-out;
+  transition: transform 0.3s ease, filter 0.3s ease; /* Smoother hover effect */
+}
+
+.small-image:hover {
+  transform: scale(1.2) rotate(360deg);
+}
+
+.small-image:nth-child(1) {
+  transform: rotate(0deg) translate(240px) rotate(0deg);
+}
+.small-image:nth-child(2) {
+  transform: rotate(72deg) translate(240px) rotate(-72deg);
+}
+.small-image:nth-child(3) {
+  transform: rotate(144deg) translate(240px) rotate(-144deg);
+}
+.small-image:nth-child(4) {
+  transform: rotate(216deg) translate(240px) rotate(-216deg);
+}
+.small-image:nth-child(5) {
+  transform: rotate(288deg) translate(240px) rotate(-288deg);
+}
+
+.helloback {
+  transition: background-color 0.5s ease; /* Smoother background color transition */
+}

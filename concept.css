@@ -27,8 +27,8 @@
 
 .small-image {
   position: absolute;
-  width: 110px;
-  height: 110px;
+  width: 85px;
+  height: 85px;
   object-fit: cover;
   border-radius: 50%;
   cursor: pointer;

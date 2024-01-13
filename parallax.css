@@ -1,9 +1,9 @@
 .parallax {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
   height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 #text {
@@ -17,23 +17,74 @@
   top: 0;
   left: 0;
   width: 100%;
+  height: auto;
 }
 
 .sec {
   position: relative;
   background: #6d1f1f;
-  padding: 100px;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sec h2 {
   font-size: 3em;
   color: aliceblue;
-  margin-bottom: 1px;
-  margin-left: 400px;
 }
 
 .sec p {
   font-size: 1em;
   color: aliceblue;
   font-weight: 300;
+}
+
+@media screen and (max-width: 600px) {
+  .parallax {
+    height: 70vh;
+  }
+
+  .parallax img {
+    height: 100%;
+  }
+
+  .sec {
+    margin-top: -2px;
+  }
+
+  .sec h2 {
+    font-size: 2em;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+  .parallax {
+    height: 70vh;
+    margin-bottom: 0;
+  }
+
+  .parallax img {
+    height: 100%;
+  }
+
+  .sec {
+    margin-top: -5px;
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1700px) {
+  .parallax {
+    height: 80vh;
+    margin-bottom: 0;
+  }
+
+  .parallax img {
+    height: 100%;
+  }
+
+  .sec {
+    margin-top: -5px;
+  }
 }

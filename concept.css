@@ -10,8 +10,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 600px; /* Increase the width to increase the circle radius */
-  height: 600px; /* Increase the height to increase the circle radius */
+  width: 300px; /* Increase the width to increase the circle radius */
+  height: 300px; /* Increase the height to increase the circle radius */
   position: relative;
   transition: transform 0.5s ease; /* Smoother transition for rotation */
 }
@@ -27,8 +27,10 @@
 
 .small-image {
   position: absolute;
-  width: 85px;
-  height: 85px;
+  /* width: 85px;
+  height: 85px; */
+  width: 80px;
+  height: 80px;
   object-fit: cover;
   border-radius: 50%;
   cursor: pointer;
@@ -41,21 +43,204 @@
 }
 
 .small-image:nth-child(1) {
-  transform: rotate(0deg) translate(240px) rotate(0deg);
+  transform: rotate(0deg) translate(260px) rotate(0deg);
 }
 .small-image:nth-child(2) {
-  transform: rotate(72deg) translate(240px) rotate(-72deg);
+  transform: rotate(72deg) translate(260px) rotate(-72deg);
 }
 .small-image:nth-child(3) {
-  transform: rotate(144deg) translate(240px) rotate(-144deg);
+  transform: rotate(144deg) translate(260px) rotate(-144deg);
 }
 .small-image:nth-child(4) {
-  transform: rotate(216deg) translate(240px) rotate(-216deg);
+  transform: rotate(216deg) translate(260px) rotate(-216deg);
 }
 .small-image:nth-child(5) {
-  transform: rotate(288deg) translate(240px) rotate(-288deg);
+  transform: rotate(288deg) translate(260px) rotate(-288deg);
 }
 
 .helloback {
   transition: background-color 0.5s ease; /* Smoother background color transition */
 }
+
+/* ----------------------custom starts here --------------------------------------------- */
+@media (min-width: 1281px) and (max-width: 1536px) {
+  .small-image {
+    width: 60px;
+    height: 60px;
+  }
+
+  .circle-container {
+    width: 200px;
+    height: 200px;
+  }
+
+  .small-image:hover {
+    transform: scale(1.2) rotate(360deg);
+  }
+
+  .small-image:nth-child(1) {
+    transform: rotate(0deg) translate(230px) rotate(0deg);
+  }
+  .small-image:nth-child(2) {
+    transform: rotate(72deg) translate(230px) rotate(-72deg);
+  }
+  .small-image:nth-child(3) {
+    transform: rotate(144deg) translate(230px) rotate(-144deg);
+  }
+  .small-image:nth-child(4) {
+    transform: rotate(216deg) translate(230px) rotate(-216deg);
+  }
+  .small-image:nth-child(5) {
+    transform: rotate(288deg) translate(230px) rotate(-288deg);
+  }
+
+  .helloback {
+    transition: background-color 0.5s ease; /* Smoother background color transition */
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .small-image {
+    width: 50px;
+    height: 50px;
+  }
+
+  .circle-container {
+    width: 200px;
+    height: 200px;
+  }
+
+  .small-image:hover {
+    transform: scale(1.2) rotate(360deg);
+  }
+
+  .small-image:nth-child(1) {
+    transform: rotate(0deg) translate(170px) rotate(0deg);
+  }
+  .small-image:nth-child(2) {
+    transform: rotate(72deg) translate(170px) rotate(-72deg);
+  }
+  .small-image:nth-child(3) {
+    transform: rotate(144deg) translate(170px) rotate(-144deg);
+  }
+  .small-image:nth-child(4) {
+    transform: rotate(216deg) translate(170px) rotate(-216deg);
+  }
+  .small-image:nth-child(5) {
+    transform: rotate(288deg) translate(170px) rotate(-288deg);
+  }
+
+  .helloback {
+    transition: background-color 0.5s ease; /* Smoother background color transition */
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+  .small-image {
+    width: 50px;
+    height: 50px;
+  }
+
+  .circle-container {
+    width: 200px;
+    height: 200px;
+  }
+
+  .small-image:hover {
+    transform: scale(1.2) rotate(360deg);
+  }
+
+  .small-image:nth-child(1) {
+    transform: rotate(0deg) translate(150px) rotate(0deg);
+  }
+  .small-image:nth-child(2) {
+    transform: rotate(72deg) translate(150px) rotate(-72deg);
+  }
+  .small-image:nth-child(3) {
+    transform: rotate(144deg) translate(150px) rotate(-144deg);
+  }
+  .small-image:nth-child(4) {
+    transform: rotate(216deg) translate(150px) rotate(-216deg);
+  }
+  .small-image:nth-child(5) {
+    transform: rotate(288deg) translate(150px) rotate(-288deg);
+  }
+
+  .helloback {
+    transition: background-color 0.5s ease; /* Smoother background color transition */
+  }
+}
+
+@media (min-width: 640px) and (max-width: 768px) {
+  .small-image {
+    width: 50px;
+    height: 50px;
+  }
+
+  .circle-container {
+    width: 200px;
+    height: 200px;
+  }
+
+  .small-image:hover {
+    transform: scale(1.2) rotate(360deg);
+  }
+
+  .small-image:nth-child(1) {
+    transform: rotate(0deg) translate(150px) rotate(0deg);
+  }
+  .small-image:nth-child(2) {
+    transform: rotate(72deg) translate(150px) rotate(-72deg);
+  }
+  .small-image:nth-child(3) {
+    transform: rotate(144deg) translate(150px) rotate(-144deg);
+  }
+  .small-image:nth-child(4) {
+    transform: rotate(216deg) translate(150px) rotate(-216deg);
+  }
+  .small-image:nth-child(5) {
+    transform: rotate(288deg) translate(150px) rotate(-288deg);
+  }
+
+  .helloback {
+    transition: background-color 0.5s ease; /* Smoother background color transition */
+  }
+}
+
+@media (min-width: 50px) and (max-width: 640px) {
+  .small-image {
+    width: 40px;
+    height: 40px;
+  }
+
+  .circle-container {
+    width: 100px;
+    height: 100px;
+  }
+
+  .small-image:hover {
+    transform: scale(1.2) rotate(360deg);
+  }
+
+  .small-image:nth-child(1) {
+    transform: rotate(0deg) translate(120px) rotate(0deg);
+  }
+  .small-image:nth-child(2) {
+    transform: rotate(72deg) translate(120px) rotate(-72deg);
+  }
+  .small-image:nth-child(3) {
+    transform: rotate(144deg) translate(120px) rotate(-144deg);
+  }
+  .small-image:nth-child(4) {
+    transform: rotate(216deg) translate(120px) rotate(-216deg);
+  }
+  .small-image:nth-child(5) {
+    transform: rotate(288deg) translate(120px) rotate(-288deg);
+  }
+
+  .helloback {
+    transition: background-color 0.5s ease; /* Smoother background color transition */
+  }
+}
+
+/* ----------------------custom starts here --------------------------------------------- */

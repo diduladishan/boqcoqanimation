@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300.26 295.66">
+  <defs>
+    <radialGradient id="radial-gradient" cx="148.34" cy="150.4" r="142.79" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8f3799"/>
+      <stop offset="0.48" stop-color="#8f3799"/>
+      <stop offset="0.65" stop-color="#8b3196"/>
+      <stop offset="0.87" stop-color="#7f228c"/>
+      <stop offset="1" stop-color="#761584"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="150.34" cy="149.74" r="132.55" xlink:href="#radial-gradient"/>
+    <linearGradient id="Degradado_sin_nombre_47" data-name="Degradado sin nombre 47" x1="148.34" y1="22.83" x2="148.34" y2="186.15" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f7f8f8"/>
+      <stop offset="0.56" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient-3" cx="150.34" cy="151.4" r="94.46" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-4" cx="193.87" cy="116.13" r="8.98" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-5" cx="194.84" cy="150.26" r="8.98" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-6" cx="214.25" cy="134.09" r="8.98" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-7" cx="175.92" cy="134.09" r="8.98" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-8" cx="105.89" cy="133.5" r="29.76" xlink:href="#radial-gradient"/>
+  </defs>
+  <g id="Layer_3" data-name="Layer 3">
+    <g>
+      <g>
+        <path d="M291.13,150.4A142.79,142.79,0,1,1,148.34,7.61,142.79,142.79,0,0,1,291.13,150.4Z" fill="url(#radial-gradient)"/>
+        <path d="M282.88,149.74A132.55,132.55,0,1,1,150.34,17.19,132.54,132.54,0,0,1,282.88,149.74Z" fill="url(#radial-gradient-2)"/>
+        <path d="M257.05,133.45c0,25.55-21.59,46.26-48.23,46.26S160.59,159,160.59,133.45s21.6-46.26,48.23-46.26S257.05,107.9,257.05,133.45Z" fill="#fff" opacity="0.2"/>
+        <path d="M24.75,181.8s25.7,104.25,135.34,94.83C160.09,276.63,66.21,284,24.75,181.8Z" fill="#f7f8f8" opacity="0.2"/>
+        <ellipse cx="60.38" cy="94.77" rx="22.04" ry="21.14" fill="#fff" opacity="0.2"/>
+        <path d="M45.08,124.75a9,9,0,1,1-9-8.7A8.86,8.86,0,0,1,45.08,124.75Z" fill="#fff" opacity="0.2"/>
+        <path d="M224.48,249.1a12.22,12.22,0,1,1-12.22-12.22A12.22,12.22,0,0,1,224.48,249.1Z" fill="#fff" opacity="0.1"/>
+        <path d="M236.35,236.88a5.94,5.94,0,1,1-5.94-5.93A5.94,5.94,0,0,1,236.35,236.88Z" fill="#fff" opacity="0.2"/>
+        <path d="M258.34,123.17c0,55.78-46.41-11-107.16-11S38.34,179,38.34,123.17s49.24-101,110-101S258.34,67.4,258.34,123.17Z" opacity="0.3" fill="url(#Degradado_sin_nombre_47)"/>
+        <path d="M262.62,156.76c0,61-50.27,110.37-112.28,110.37S38.06,217.71,38.06,156.76,88.33,46.39,150.34,46.39,262.62,95.8,262.62,156.76Z" fill="#f1c5de" opacity="0.1"/>
+      </g>
+      <g>
+        <polygon points="150.34 177.71 150.12 177.71 150.12 177.71 150.34 177.71" fill="#fff"/>
+        <path d="M250.61,198.23a54.19,54.19,0,0,0-.09-6.82l-6.25-65.35c-2.37-42.7-44-47.18-44-47.18H100.4s-41.62,4.48-44,47.18l-6.26,65.35a55.57,55.57,0,0,0-.08,6.82c-.61,11,3.27,20.4,11,24.09a17.47,17.47,0,0,0,10.71,1.28c6-.33,13.93-3.23,23.18-12.57l30.41-33.43,24.7.11h.43l24.71-.11L205.66,211c9.25,9.34,17.21,12.24,23.18,12.57a17.49,17.49,0,0,0,10.72-1.28C247.33,218.63,251.22,209.24,250.61,198.23Z" fill="none" stroke-miterlimit="10" stroke-width="14" stroke="url(#radial-gradient-3)"/>
+        <polygon points="150.34 177.71 150.55 177.71 150.55 177.71 150.34 177.71" fill="#fff"/>
+        <path d="M202.85,116.13a9,9,0,1,1-9-9A9,9,0,0,1,202.85,116.13Z" fill="url(#radial-gradient-4)"/>
+        <path d="M203.82,150.26a9,9,0,1,1-9-9A9,9,0,0,1,203.82,150.26Z" fill="url(#radial-gradient-5)"/>
+        <path d="M223.23,134.09a9,9,0,1,1-9-9A9,9,0,0,1,223.23,134.09Z" fill="url(#radial-gradient-6)"/>
+        <path d="M184.9,134.09a9,9,0,1,1-9-9A9,9,0,0,1,184.9,134.09Z" fill="url(#radial-gradient-7)"/>
+        <path d="M135.66,133.5a29.77,29.77,0,1,1-29.77-29.76A29.77,29.77,0,0,1,135.66,133.5Zm-49.85-4.77.06,11.4H101v13.56h11.1V139.94l14.16.07,0-11.69-14.18.05V112.63H101v16Z" fill="url(#radial-gradient-8)"/>
+      </g>
+      <g>
+        <polygon points="150.99 170.6 150.78 170.6 150.78 170.59 150.99 170.6" fill="#fff"/>
+        <path d="M251.26,191.12a55.7,55.7,0,0,0-.08-6.83l-6.26-65.35c-2.37-42.7-44-47.17-44-47.17H101.06s-41.62,4.47-44,47.17l-6.25,65.35a56.75,56.75,0,0,0-.09,6.83c-.61,11,3.28,20.4,11.06,24.09a17.53,17.53,0,0,0,10.71,1.28c6-.34,13.93-3.23,23.18-12.57l30.41-33.43,24.7.1h.43l24.7-.1,30.41,33.43c9.25,9.34,17.21,12.23,23.18,12.57a17.54,17.54,0,0,0,10.71-1.28C248,211.52,251.88,202.13,251.26,191.12Z" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="14"/>
+        <polygon points="150.99 170.6 151.21 170.6 151.21 170.59 150.99 170.6" fill="#fff"/>
+        <path d="M203.51,109a9,9,0,1,1-9-9A9,9,0,0,1,203.51,109Z" fill="#fff"/>
+        <circle cx="195.5" cy="143.15" r="8.98" transform="translate(-39.9 85.71) rotate(-22.5)" fill="#fff"/>
+        <path d="M223.89,127a9,9,0,1,1-9-9A9,9,0,0,1,223.89,127Z" fill="#fff"/>
+        <path d="M185.55,127a9,9,0,1,1-9-9A9,9,0,0,1,185.55,127Z" fill="#fff"/>
+        <path d="M136.31,126.38a29.76,29.76,0,1,1-29.76-29.76A29.75,29.75,0,0,1,136.31,126.38Zm-49.85-4.76L86.53,133h15.14v13.57h11.1V132.82l14.17.07,0-11.68-14.19.05V105.52h-11.1v16Z" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
